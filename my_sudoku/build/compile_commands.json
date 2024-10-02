@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/projects/my_sudoku/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\VC98\\Bin\\CL.EXE  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /Zm1000 /GR /GX /MDd /Zi /Ob0 /Od /GZ /FoCMakeFiles\\sudoku.dir\\main.cpp.obj /FdCMakeFiles\\sudoku.dir\\ -c D:\\projects\\my_sudoku\\main.cpp",
+  "file": "D:/projects/my_sudoku/main.cpp",
+  "output": "CMakeFiles/sudoku.dir/main.cpp.obj"
+}
+]

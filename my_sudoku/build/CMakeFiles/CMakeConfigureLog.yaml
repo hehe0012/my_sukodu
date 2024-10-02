@@ -1,0 +1,236 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/VC98/Bin/CL.EXE 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
+      Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 6.00.8168
+      Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/projects/my_sudoku/build/CMakeFiles/3.30.3/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/VC98/Bin/CL.EXE 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
+      Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 6.00.8168
+      Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/projects/my_sudoku/build/CMakeFiles/3.30.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/projects/my_sudoku/build/CMakeFiles/CMakeScratch/TryCompile-hgpqnp"
+      binary: "D:/projects/my_sudoku/build/CMakeFiles/CMakeScratch/TryCompile-hgpqnp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /Zm1000"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/my_sudoku/build/CMakeFiles/CMakeScratch/TryCompile-hgpqnp'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_0c8b8\\fast
+        	nmake  -f CMakeFiles\\cmTC_0c8b8.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_0c8b8.dir\\build
+        Building C object CMakeFiles/cmTC_0c8b8.dir/CMakeCCompilerABI.c.obj
+        	C:\\PROGRA~2\\MICROS~2\\VC98\\Bin\\CL.EXE @C:\\Users\\admin\\AppData\\Local\\Temp\\nma05936.
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_0c8b8.exe
+        	C:\\PROGRA~2\\MICROS~2\\VC98\\Bin\\LINK.EXE /nologo @CMakeFiles\\cmTC_0c8b8.dir\\objects1.rsp @C:\\Users\\admin\\AppData\\Local\\Temp\\nmb05936.
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(LINK\\.EXE|;ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(LINK\\.EXE|;ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~2/MICROS~2/VC98/Bin/LINK.EXE
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~2/MICROS~2/VC98/Bin/LINK.EXE" "-v"
+      Microsoft (R) Incremental Linker Version 6.00.8168
+      Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/projects/my_sudoku/build/CMakeFiles/CMakeScratch/TryCompile-sik2jk"
+      binary: "D:/projects/my_sudoku/build/CMakeFiles/CMakeScratch/TryCompile-sik2jk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /Zm1000 /GR /GX"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/my_sudoku/build/CMakeFiles/CMakeScratch/TryCompile-sik2jk'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_c22c3\\fast
+        	nmake  -f CMakeFiles\\cmTC_c22c3.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_c22c3.dir\\build
+        Building CXX object CMakeFiles/cmTC_c22c3.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\PROGRA~2\\MICROS~2\\VC98\\Bin\\CL.EXE @C:\\Users\\admin\\AppData\\Local\\Temp\\nma02600.
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_c22c3.exe
+        	C:\\PROGRA~2\\MICROS~2\\VC98\\Bin\\LINK.EXE /nologo @CMakeFiles\\cmTC_c22c3.dir\\objects1.rsp @C:\\Users\\admin\\AppData\\Local\\Temp\\nmb02600.
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(LINK\\.EXE|;ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(LINK\\.EXE|;ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~2/MICROS~2/VC98/Bin/LINK.EXE
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~2/MICROS~2/VC98/Bin/LINK.EXE" "-v"
+      Microsoft (R) Incremental Linker Version 6.00.8168
+      Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+...
